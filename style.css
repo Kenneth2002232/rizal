@@ -1,0 +1,273 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.home{
+    color: white;
+    background-image: url(rose.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 110vh;
+    text-shadow: 2px 2px 8px black;
+    margin-bottom: 0;
+}
+.home header{
+    display: flex;
+    padding: 20px 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.4);
+    position: fixed;
+    min-width: 100%;
+    z-index: 1000; 
+}
+header h2{
+    padding: 0 100px;
+ 
+}
+.home .content h1{
+    text-shadow: 2px 2px 8px black;
+}
+.home header nav{
+    padding-left: 13.5%;
+    text-align: left;
+min-width: 85%;
+  word-spacing: 80px;
+  
+}
+.home header nav a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.home header input{
+
+    background: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    width: 100px;
+    height: 30px;
+    
+   
+}
+
+.active{
+    background: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white ; 
+
+}
+
+.search{
+    min-width: 15%;
+    color: white;
+ margin-left: 12%;
+ min-width: 60px;
+}
+.content{
+    padding: 10% 10%;
+    font-size: 40px;
+
+}
+.home .content button{
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    width: 10%;
+
+    padding: 15px 0;
+}
+
+
+.home .content form{
+    margin: auto;
+    max-width: 50%;
+
+    margin-top: 5%;
+}
+.home .content form p{
+    font-size: 25px;
+    
+}
+.home .content p{
+    font-size: 25px;
+  
+}
+
+.home .content form a{
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    width: 10%;
+    text-shadow: none;
+font-size: 20px;
+    padding: 15px 15px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+
+.rel{
+    min-height: 100vh;
+    text-align: center;
+background-image: url(rel1.jpg);
+
+}
+.rel .content{
+    margin: 0 auto;
+    max-width: 70%;
+    max-height:40vh;
+    padding-top: 8%;
+
+   
+}
+.rel .content h1{
+    margin-bottom: 5%;
+}
+.rel .content div{
+    border-radius: 20px;
+}
+.rel .content h5{
+    background-color: rgba(0,0,0, 0.4);
+    border-radius: 20px;
+}
+
+
+
+
+
+.journey{
+    min-height: 100vh;
+    background-image: url(travel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 5%;
+}
+.journey form p{
+
+
+    word-spacing: 10px;
+   
+}
+
+.journey form{
+
+    padding: 40px 70px;
+    background: url(jor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 40%;
+    margin: auto;
+
+}
+
+
+
+
+.sum{
+    min-height: 100vh;
+    background-image: url(doc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 8%;
+}
+.sum .grid{
+    max-width: 90%;
+    min-height: 60vh;
+    display:flex;
+    margin: auto ;
+
+}
+.sum .grid div{
+   min-width: 30%;
+   min-height: 20vh;
+border: 2px solid black;
+margin: 0 25px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+background: url(bg.jpg);
+border-radius:10px ;
+padding: 5% 4%;
+}
+.sum .grid div p{
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    border-radius: 10px;
+    word-spacing: 10px;
+}
+
+
+.Doc{
+    padding: 0 10%;
+    padding-top: 4.5%;
+    min-height: 200vh;
+    background-image: url(jor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.Doc h1{
+    margin-bottom: 5%;
+}
+.grid{
+    
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 80%;
+    justify-content: center;
+    margin-top: 20px;
+}
+.grid img{
+    margin: 0 1%;
+    border-radius: 10px;
+}
+
+.grid1{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 80%;
+    justify-content: center;
+    margin-top: 30px;
+}
+.grid1 img{
+    border-radius: 10px;
+    min-width: 40%;
+    margin: 0 1%;
+}
+.paper{
+    padding: 4% 0;
+    background: url(paper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 80%;
+    margin: auto;
+}
+#riz{
+    background-image: url(papel.jpg);
+    margin-top: 0;
+}
